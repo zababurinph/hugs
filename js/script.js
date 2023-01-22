@@ -5,7 +5,7 @@ const notify = () => {
 elusiveButton = document.getElementById("elusive")
 elusiveButton.addEventListener('mouseover', () => {
     elusiveButton.style.position = "absolute";
-    elusiveButton.style.left = `${random(0, 90)}%`;
+    elusiveButton.style.left = `${random(0, 70)}%`;
     elusiveButton.style.top = `${random(0, 90)}%`;
 });
 
